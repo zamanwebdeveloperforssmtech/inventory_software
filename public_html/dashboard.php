@@ -22,24 +22,82 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="./images/user.png" alt="">
+				<div class="card mx-auto">
+				  <img class="card-img-top mx-auto" style="width: 60%" src="./images/user.png" alt="">
 				  <div class="card-body">
 				    <h5 class="card-title">Profile Info</h5>
-				    <p class="card-text">Syed Zaman</p>
-				    <p class="card-text">Admin</p>
+				    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Syed Zaman</p>
+				    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Admin</p>
 				    <p class="card-text">Last Login: xxxx-xx-xx</p>
-				    <a href="#" class="btn btn-primary"><i class="fa fa-user">&nbsp;</i>Edit Profile</a>
+				    <a href="#" class="btn btn-primary"><i class="fa fa-edit">&nbsp;</i>Edit Profile</a>
 				  </div>
 				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="jumbotron" style="width: 100%;height: 100%;">
+					<h1>Welcome Admin</h1>
+					<div class="row">
+						<div class="col-sm-6">
+							<iframe src="http://free.timeanddate.com/clock/i6z1bbmy/n73/szw160/szh160/hfc0ff/cf100/hnce1ead6" frameborder="0" width="160" height="160"></iframe>
+						</div>
+						<div class="col-sm-6">
+							<div class="card">
+							    <div class="card-body">
+							        <h5 class="card-title">New Orders</h5>
+							        <p class="card-text">Here you can make invoices and create new orders</p>
+							        <a href="#" class="btn btn-primary">New Orders</a>
+							    </div>
+							</div>
+						</div>
+					</div>
+					
+				</div>				
 			</div>
 		</div>
 
 	</div>
-	
+	<p></p>
+	<p></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+				    <div class="card-body">
+				        <h5 class="card-title">Categories</h5>
+				        <p class="card-text">Here you can manage your categories and you add new parent and sub categories</p>
+				        <a href="#" class="btn btn-primary">Add</a>
+				        <a href="#" class="btn btn-primary">Manage</a>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+				    <div class="card-body">
+				        <h5 class="card-title">Brands</h5>
+				        <p class="card-text">Here you can manage your Brands and you add new Brands</p>
+				        <a href="#" class="btn btn-primary">Add</a>
+				        <a href="#" class="btn btn-primary">Manage</a>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+				    <div class="card-body">
+				        <h5 class="card-title">Products</h5>
+				        <p class="card-text">Here you can manage your Products and you add new Products</p>
+				        <a href="#" class="btn btn-primary">Add</a>
+				        <a href="#" class="btn btn-primary">Manage</a>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="jumbotron">
+		<h1><center>Footer Area</center></h1>
+	</div>
 
-	<!-- <div class="jumbotron">
-		<h1>Hello World</h1>
-	</div> -->
 </body>
 </html>
