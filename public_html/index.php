@@ -36,7 +36,7 @@
 		      </div>
 		      
 		      <button type="submit" class="btn btn-primary"><i class="fa fa-lock">&nbsp;</i>Login</button>
-		      <span><a href="#">Register</a></span>
+		      <span><a href="register.php">Register</a></span>
 		    </form>		    
 		  </div>
 		  <div class="card-footer"><a href="#">Forget Password ?</a></div>
